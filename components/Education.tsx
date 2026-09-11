@@ -16,7 +16,7 @@ export default function Education() {
         {education.map((item) => (
           <div
             key={item.degree}
-            className="flex gap-4 rounded-xl border border-space-border bg-space-panel/60 p-6"
+            className="card-glow flex gap-4 rounded-xl p-6"
           >
             <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-accent-gold/10 text-accent-gold">
               <GraduationCap className="h-5 w-5" aria-hidden="true" />

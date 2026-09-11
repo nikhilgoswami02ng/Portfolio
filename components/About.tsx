@@ -27,7 +27,7 @@ export default function About() {
             {stats.map((stat) => (
               <div key={stat.label}>
                 <dt className="sr-only">{stat.label}</dt>
-                <dd className="font-display text-3xl font-semibold text-text-primary">
+                <dd className="font-display text-3xl font-semibold bg-gradient-to-b from-accent-blue via-accent-violet to-accent-gold bg-clip-text text-transparent">
                   {stat.value}
                 </dd>
                 <p className="mt-1 text-sm text-text-muted">{stat.label}</p>

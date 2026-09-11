@@ -30,7 +30,7 @@ function TimelineGroup({
                 aria-hidden="true"
                 className={`absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-full border text-sm font-display font-semibold sm:h-12 sm:w-12 ${
                   item.current
-                    ? "border-accent-blue/60 bg-accent-blue/10 text-accent-blue"
+                    ? "border-accent-blue/60 bg-accent-blue/10 text-accent-blue shadow-[0_0_20px_rgba(255,45,75,0.35)]"
                     : "border-space-borderStrong bg-space-panel text-text-muted"
                 }`}
               >

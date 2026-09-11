@@ -9,10 +9,11 @@ export default function Hero() {
       className="relative mx-auto flex max-w-content flex-col-reverse items-center gap-12 px-5 pb-20 pt-32 sm:px-8 sm:pt-40 lg:flex-row lg:items-center lg:gap-10 lg:pb-28"
     >
       <div className="w-full lg:w-[56%]">
-        <p className="text-sm font-medium text-accent-blue">
+        <span className="inline-flex items-center gap-2 rounded-full border border-accent-blue/30 bg-accent-blue/10 px-4 py-1.5 text-sm font-medium text-accent-blue shadow-[0_0_20px_rgba(255,45,75,0.25)]">
+          <span className="h-1.5 w-1.5 animate-pulse rounded-full bg-accent-gold" />
           {profile.role}
-        </p>
-        <h1 className="mt-3 font-display text-4xl font-semibold leading-[1.1] tracking-tight text-text-primary sm:text-5xl">
+        </span>
+        <h1 className="text-gradient-animated mt-4 font-display text-4xl font-semibold leading-[1.1] tracking-tight sm:text-5xl lg:text-6xl">
           {profile.name}
         </h1>
         <p className="mt-5 max-w-xl text-base leading-relaxed text-text-muted sm:text-lg">
@@ -36,14 +37,14 @@ export default function Hero() {
         <div className="mt-9 flex flex-wrap items-center gap-3">
           <a
             href="#contact"
-            className="inline-flex items-center justify-center rounded-full bg-accent-blue px-6 py-3 text-sm font-medium text-white transition-transform hover:-translate-y-0.5 hover:bg-accent-blue/90"
+            className="btn-primary inline-flex items-center justify-center rounded-full px-6 py-3 text-sm font-semibold text-white transition-transform hover:-translate-y-0.5"
           >
             Get in touch
           </a>
           <a
             href="/resume.pdf"
             download
-            className="inline-flex items-center justify-center rounded-full border border-space-borderStrong px-6 py-3 text-sm font-medium text-text-primary transition-colors hover:border-accent-blue/60"
+            className="inline-flex items-center justify-center rounded-full border border-space-borderStrong px-6 py-3 text-sm font-medium text-text-primary shadow-[0_0_20px_rgba(255,45,75,0.15)] transition-all hover:-translate-y-0.5 hover:border-accent-blue/60"
           >
             Download resume
           </a>

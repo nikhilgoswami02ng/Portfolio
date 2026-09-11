@@ -43,7 +43,7 @@ function ContactCard({
   );
 
   const baseClasses =
-    "group flex w-full items-center gap-4 rounded-xl border border-space-border bg-space-panel/60 p-4 text-left transition-colors hover:border-accent-blue/40";
+    "card-glow group flex w-full items-center gap-4 rounded-xl p-4 text-left";
 
   if (copyValue) {
     return (

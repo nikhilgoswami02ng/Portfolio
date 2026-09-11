@@ -13,7 +13,7 @@ export default function Certifications() {
       </h2>
 
       <div className="mt-12 grid gap-4 sm:grid-cols-3">
-        <div className="rounded-xl border border-space-border bg-space-panel/60 p-6">
+        <div className="card-glow rounded-xl p-6">
           <div className="flex items-center gap-2.5 text-accent-gold">
             <Award className="h-5 w-5" aria-hidden="true" />
             <h3 className="font-display text-sm font-semibold text-text-primary">
@@ -29,7 +29,7 @@ export default function Certifications() {
           </ul>
         </div>
 
-        <div className="rounded-xl border border-space-border bg-space-panel/60 p-6">
+        <div className="card-glow rounded-xl p-6">
           <div className="flex items-center gap-2.5 text-accent-blue">
             <Wrench className="h-5 w-5" aria-hidden="true" />
             <h3 className="font-display text-sm font-semibold text-text-primary">
@@ -48,7 +48,7 @@ export default function Certifications() {
           </ul>
         </div>
 
-        <div className="rounded-xl border border-space-border bg-space-panel/60 p-6">
+        <div className="card-glow rounded-xl p-6">
           <div className="flex items-center gap-2.5 text-accent-violet">
             <Globe className="h-5 w-5" aria-hidden="true" />
             <h3 className="font-display text-sm font-semibold text-text-primary">

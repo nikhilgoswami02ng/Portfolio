@@ -99,13 +99,13 @@ export default function GalaxyBackground() {
         aria-hidden="true"
         className="fixed inset-0 z-0 pointer-events-none overflow-hidden"
       >
-        <div className="absolute -top-40 -left-32 w-[32rem] h-[32rem] rounded-full bg-accent-blue/10 blur-[120px] animate-driftGlow" />
+        <div className="aurora-blob -top-40 -left-32 w-[32rem] h-[32rem] bg-accent-blue/20" />
         <div
-          className="absolute top-1/3 -right-40 w-[28rem] h-[28rem] rounded-full bg-accent-violet/10 blur-[130px] animate-driftGlow"
+          className="aurora-blob top-1/3 -right-40 w-[28rem] h-[28rem] bg-accent-violet/20"
           style={{ animationDelay: "2s" }}
         />
         <div
-          className="absolute bottom-0 left-1/4 w-[24rem] h-[24rem] rounded-full bg-accent-gold/[0.06] blur-[110px] animate-driftGlow"
+          className="aurora-blob bottom-0 left-1/4 w-[24rem] h-[24rem] bg-accent-gold/[0.12]"
           style={{ animationDelay: "4s" }}
         />
       </div>

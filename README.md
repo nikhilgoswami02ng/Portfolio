@@ -1,8 +1,9 @@
 # Nikhil Goswami — Portfolio
 
 A single-page portfolio built with Next.js 14 (App Router), TypeScript, and
-Tailwind CSS. Dark, red-accented theme with an animated starfield background
-and an orbit diagram representing core areas of expertise. Icons via
+Tailwind CSS. Dark, red-accented theme with an animated starfield + aurora
+background, a live marquee ticker, spinning portrait halo, animated gradient
+headline, and glassy gradient-border cards. Icons via
 [lucide-react](https://lucide.dev).
 
 ## Sections
@@ -57,6 +58,8 @@ auto-detects Next.js). Run `vercel --prod` to push to production.
   `components/Hero.tsx`).
 - **Starfield / orbit animation**: `components/GalaxyBackground.tsx` and
   `components/OrbitDiagram.tsx`. Both respect `prefers-reduced-motion`.
+- **Animated effects**: signature CSS lives in `app/globals.css` (gradient
+  text, glow buttons, portrait halo, aurora blobs, marquee ticker).
 
 ## Tech stack
 

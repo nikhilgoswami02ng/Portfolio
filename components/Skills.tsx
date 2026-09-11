@@ -39,7 +39,7 @@ export default function Skills() {
           return (
             <div
               key={group.title}
-              className="rounded-xl border border-space-border bg-space-panel/60 p-5 transition-colors hover:border-accent-blue/40"
+              className="card-glow rounded-xl p-5"
             >
               <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-accent-blue/10 text-accent-blue">
                 <Icon className="h-[18px] w-[18px]" aria-hidden="true" />

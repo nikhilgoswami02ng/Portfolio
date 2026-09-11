@@ -33,7 +33,7 @@ export default function Header() {
       <div className="mx-auto flex max-w-content items-center justify-between px-5 sm:px-8 py-4">
         <a
           href="#top"
-          className="font-display text-sm sm:text-base font-semibold tracking-tight text-text-primary"
+          className="font-display text-sm sm:text-base font-semibold tracking-tight bg-gradient-to-r from-accent-blue via-accent-violet to-accent-gold bg-clip-text text-transparent"
         >
           Nikhil Goswami
         </a>
