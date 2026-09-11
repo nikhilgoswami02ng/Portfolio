@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { orbitSkills } from "@/lib/data";
 
 const ringConfig = [
@@ -14,12 +15,17 @@ export default function OrbitDiagram() {
       role="img"
       aria-label="Diagram of core expertise areas orbiting Nikhil's trade finance specialty: Trade Finance, Foreign Exchange, Compliance, and Risk & Audit."
     >
-      {/* Central sun */}
+      {/* Central portrait */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10">
-        <div className="relative flex h-16 w-16 sm:h-20 sm:w-20 items-center justify-center rounded-full bg-gradient-to-br from-accent-blue via-accent-violet to-accent-gold shadow-[0_0_40px_rgba(91,127,255,0.45)]">
-          <span className="font-display text-sm sm:text-base font-semibold tracking-tight text-space-bg">
-            NG
-          </span>
+        <div className="relative h-24 w-24 sm:h-28 sm:w-28 overflow-hidden rounded-full border-2 border-accent-blue/60 shadow-[0_0_40px_rgba(91,127,255,0.45)]">
+          <Image
+            src="/portrait.jpg"
+            alt="Nikhil Goswami"
+            fill
+            sizes="(max-width: 640px) 96px, 112px"
+            className="object-cover"
+            priority
+          />
         </div>
       </div>
 
