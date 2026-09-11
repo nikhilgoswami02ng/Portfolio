@@ -13,22 +13,18 @@ export default function OrbitDiagram() {
     <div
       className="relative mx-auto aspect-square w-full max-w-[340px] sm:max-w-[400px]"
       role="img"
-      aria-label="Diagram of core expertise areas orbiting Nikhil's trade finance specialty: Trade Finance, Foreign Exchange, Compliance, and Risk & Audit."
+      aria-label="Portrait of Nikhil Goswami surrounded by core expertise areas: Trade Finance, Foreign Exchange, Compliance, and Risk & Audit."
     >
       {/* Central portrait */}
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10">
-        <div className="relative">
-          <div
-            className="portrait-halo absolute -inset-4 rounded-full"
-            aria-hidden="true"
-          />
-          <div className="relative h-24 w-24 sm:h-28 sm:w-28 overflow-hidden rounded-full border-2 border-accent-blue/60 shadow-[0_0_40px_rgba(255,45,75,0.5)]">
+      <div className="absolute top-1/2 left-1/2 z-10 -translate-x-1/2 -translate-y-1/2">
+        <div className="rounded-2xl bg-gradient-to-br from-accent-blue via-accent-violet to-accent-gold p-[2px] shadow-[0_0_50px_rgba(255,45,75,0.35)]">
+          <div className="overflow-hidden rounded-[14px] bg-space-elevated">
             <Image
               src="/portrait.jpg"
               alt="Nikhil Goswami"
-              fill
-              sizes="(max-width: 640px) 96px, 112px"
-              className="object-cover"
+              width={675}
+              height={900}
+              className="h-auto w-44 sm:w-56"
               priority
             />
           </div>

@@ -212,20 +212,6 @@ section[id] {
   box-shadow: 0 14px 40px -12px rgba(255, 45, 75, 0.45);
 }
 
-/* Spinning conic halo behind the hero portrait */
-.portrait-halo {
-  background: conic-gradient(from 0deg, #ff2d4b, #ff6b88, #ffb030, #ff2d4b);
-  filter: blur(12px);
-  opacity: 0.85;
-  animation: haloSpin 6s linear infinite;
-}
-
-@keyframes haloSpin {
-  to {
-    transform: rotate(360deg);
-  }
-}
-
 /* Drifting aurora glow blobs */
 .aurora-blob {
   position: absolute;
