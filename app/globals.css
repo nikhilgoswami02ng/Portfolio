@@ -21,15 +21,15 @@ html {
 }
 
 body {
-  background-color: #05060f;
-  color: #edeffb;
+  background-color: #0b0506;
+  color: #f5eded;
   font-family: var(--font-inter), sans-serif;
   -webkit-font-smoothing: antialiased;
   overflow-x: hidden;
 }
 
 ::selection {
-  background: rgba(91, 127, 255, 0.35);
+  background: rgba(255, 45, 75, 0.35);
   color: #ffffff;
 }
 
@@ -37,7 +37,7 @@ body {
 a:focus-visible,
 button:focus-visible,
 [tabindex]:focus-visible {
-  outline: 2px solid #5b7fff;
+  outline: 2px solid #ff2d4b;
   outline-offset: 3px;
   border-radius: 4px;
 }
@@ -66,7 +66,7 @@ button:focus-visible,
   position: absolute;
   top: 50%;
   left: 50%;
-  border: 1px dashed rgba(230, 233, 255, 0.14);
+  border: 1px dashed rgba(255, 90, 115, 0.16);
   border-radius: 50%;
   transform: translate(-50%, -50%);
 }
@@ -126,14 +126,14 @@ section[id] {
 }
 
 ::-webkit-scrollbar-track {
-  background: #05060f;
+  background: #0b0506;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #1c2140;
+  background: #2a1115;
   border-radius: 999px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #2a3163;
+  background: #3a181e;
 }

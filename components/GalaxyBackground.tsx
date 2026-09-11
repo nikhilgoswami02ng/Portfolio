@@ -64,7 +64,7 @@ export default function GalaxyBackground() {
             Math.sin(time * star.twinkleSpeed + star.phase) * 0.25;
         ctx.beginPath();
         ctx.arc(star.x, star.y, star.radius, 0, Math.PI * 2);
-        ctx.fillStyle = `rgba(237, 239, 251, ${Math.max(
+        ctx.fillStyle = `rgba(245, 237, 237, ${Math.max(
           0,
           Math.min(1, twinkle)
         )})`;

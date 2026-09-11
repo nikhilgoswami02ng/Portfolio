@@ -17,7 +17,7 @@ export default function OrbitDiagram() {
     >
       {/* Central portrait */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10">
-        <div className="relative h-24 w-24 sm:h-28 sm:w-28 overflow-hidden rounded-full border-2 border-accent-blue/60 shadow-[0_0_40px_rgba(91,127,255,0.45)]">
+        <div className="relative h-24 w-24 sm:h-28 sm:w-28 overflow-hidden rounded-full border-2 border-accent-blue/60 shadow-[0_0_40px_rgba(255,45,75,0.5)]">
           <Image
             src="/portrait.jpg"
             alt="Nikhil Goswami"
@@ -47,11 +47,11 @@ export default function OrbitDiagram() {
                   animationDirection: ring.reverse ? "reverse" : "normal",
                 }}
               >
-                <span className="flex items-center gap-1.5 whitespace-nowrap rounded-full border border-space-borderStrong bg-space-panel/90 px-2.5 py-1 text-[10px] sm:text-xs font-medium text-text-primary backdrop-blur-sm shadow-[0_0_16px_rgba(91,127,255,0.15)]">
+                <span className="flex items-center gap-1.5 whitespace-nowrap rounded-full border border-space-borderStrong bg-space-panel/90 px-2.5 py-1 text-[10px] sm:text-xs font-medium text-text-primary backdrop-blur-sm shadow-[0_0_16px_rgba(255,45,75,0.18)]">
                   <span
                     className="h-1.5 w-1.5 rounded-full"
                     style={{
-                      backgroundColor: ["#5b7fff", "#8b6bff", "#cba135", "#5b7fff"][
+                      backgroundColor: ["#ff2d4b", "#ff6b88", "#ffb030", "#ff2d4b"][
                         i % 4
                       ],
                     }}

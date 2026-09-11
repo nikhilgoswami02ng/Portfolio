@@ -1,7 +1,7 @@
 # Nikhil Goswami — Portfolio
 
 A single-page portfolio built with Next.js 14 (App Router), TypeScript, and
-Tailwind CSS. Dark, space-themed design with an animated starfield background
+Tailwind CSS. Dark, red-accented theme with an animated starfield background
 and an orbit diagram representing core areas of expertise. Icons via
 [lucide-react](https://lucide.dev).
 

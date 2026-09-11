@@ -11,21 +11,21 @@ const config: Config = {
     extend: {
       colors: {
         space: {
-          bg: "#05060f",
-          elevated: "#0b0e1f",
-          panel: "#0e1224",
-          border: "rgba(230,233,255,0.09)",
-          borderStrong: "rgba(230,233,255,0.16)",
+          bg: "#0b0506",
+          elevated: "#130a0b",
+          panel: "#190c0e",
+          border: "rgba(255,90,115,0.09)",
+          borderStrong: "rgba(255,90,115,0.18)",
         },
         text: {
-          primary: "#edeffb",
-          muted: "#9098bf",
-          faint: "#5f6690",
+          primary: "#f5eded",
+          muted: "#a69090",
+          faint: "#735b5d",
         },
         accent: {
-          blue: "#5b7fff",
-          violet: "#8b6bff",
-          gold: "#cba135",
+          blue: "#ff2d4b",
+          violet: "#ff6b88",
+          gold: "#ffb030",
         },
       },
       fontFamily: {
